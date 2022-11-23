@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity">
+
+    <ImageButton
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_baseline_arrow_back_ios_new_24"
+        android:background="@android:color/transparent"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:text="Thêm mới thuốc"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/tenkhoahoc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập tên khoa học" />
+
+        <EditText
+            android:id="@+id/tenthuonggoi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập tên thường gọi" />
+
+        <EditText
+            android:id="@+id/dactinh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập đặc tính" />
+
+        <EditText
+            android:id="@+id/maula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập màu lá" />
+
+        <EditText
+            android:id="@+id/congdung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập công dụng " />
+
+        <EditText
+            android:id="@+id/duoctinh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập dược tính" />
+
+        <EditText
+            android:id="@+id/chuy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập chú ý" />
+
+        <EditText
+            android:id="@+id/hinhanh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập url hình ảnh" />
+
+        <Button
+            android:id="@+id/them"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0f0"
+            android:text="Thêm" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
